@@ -1,0 +1,118 @@
+/*universal styles*/
+*{
+    padding: 0px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*header style*/
+header{
+   
+    background-image: url(https://rednoseday.org/sites/default/files/styles/cr_1400_x_684_2x/public/2021-12/RND_HomelessnessBlog_1400x800.jpg?itok=jkLptXqB);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.8;
+}
+/*header title*/
+.title{
+    background-color:rgb(193, 159,196,0.5);
+}
+#maint{
+    font-size: 60px;
+    text-shadow: 6px 6px 6px black;
+
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title p{
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px cyan;
+    font-weight: 500;
+}
+/*.banner{
+    position: absolute;
+    bottom: -30px;
+    border: 5px solid wheat;
+    border-radius: 20px;
+    color: darkslategray;
+    text-shadow: 3px 3px 3px whitesmoke;
+    background-color:cornflowerblue;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+
+.main{
+    
+    background-image: url("");
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    /*background-color: rgba(92, 88, 88, 0.695);*/
+    background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/02/shutterstock-black-design-how-to-black-cover.jpg);
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px darkmagenta;
+    padding: 10px;
+}
+
+#icon1{
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    
+}
+
+#iconpara{
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
+}
+
+
+footer .footer-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%  ;
+    box-shadow: 0px 1px 7px goldenrod;
+}
+
+.card{
+    box-shadow: 2px 2px 15px black;
+}
+
+.carousel-inner{
+    height: 550px;
+    
+}
+
+#pic{
+    box-shadow: 2px 5px 10px black;
+    border-radius: 15px;
+    width: 1000px;
+    
+}
+
+#cards{
+    
+    padding-top: 20px;
+    
+    
+}
+#butt{
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+}

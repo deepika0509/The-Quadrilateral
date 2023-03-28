@@ -1,0 +1,51 @@
+body
+{
+    background-image: url('https://media.idownloadblog.com/wp-content/uploads/2021/01/Transition-Space-iphone-wallpaper-AR72014-idownloadblog-blue.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+form
+{
+    width: 400px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border: 2px;
+    border-style: solid;
+    color: white;
+}
+div
+{
+    margin-bottom: 10px;
+}
+button
+{
+    display: block;
+    margin:auto;
+    background-color: blue;
+    color:white;
+    padding: 15px 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type=text],input[type=password],input[type=date],input[type=email],input[type=number],input[type=file],select,textarea
+{
+  width: 98.5%;
+  font-size: 20px;
+}
+
+#hyp{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    border-color: beige;
+    color: beige;
+}
