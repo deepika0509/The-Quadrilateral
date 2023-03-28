@@ -1,0 +1,31 @@
+GET http://localhost:4000/user-api/get-users
+
+###
+GET http://localhost:4000/user-api/get-user/400
+
+###
+POST http://localhost:4000/user-api/create-user
+Content-Type: application/json
+
+{
+    "id":400,
+    "name":"ankura home",
+    "area":"kondapur",
+    "ph":45624785
+ }
+
+###
+PUT http://localhost:4000/user-api/update-user
+Content-Type: application/json
+
+{
+    "id":200,
+    "name":"mike johnson",
+    "age":24
+ }
+
+###
+DELETE http://localhost:4000/user-api/delete-user/200
+
+
+

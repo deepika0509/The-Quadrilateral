@@ -1,0 +1,17 @@
+{
+  "name": "asst3-back",
+  "version": "1.0.0",
+  "description": "To demonstrate rest apis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "manhith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
